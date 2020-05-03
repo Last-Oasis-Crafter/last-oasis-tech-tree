@@ -1,0 +1,78 @@
+{
+  "trees": [
+    {
+      "name": "Vitamins",
+      "nodes": [
+        {
+          "id": 0,
+          "isRoot": "true",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "id": 1,
+          "parent": 0,
+          "name": "Vision Powder",
+          "row": 0,
+          "col": 1.5
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "name": "Desert Mule",
+          "row": -1,
+          "col": 3
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "name": "Rupu Repellent",
+          "row": -1,
+          "col": 6
+        },
+        {
+          "id": 4,
+          "parent": 1,
+          "name": "Fury Fumes",
+          "row": 1,
+          "col": 3
+        },
+        {
+          "id": 5,
+          "parent": 4,
+          "name": "Cauterizing Station",
+          "row": 0,
+          "col": 4.5
+        },
+        {
+          "id": 6,
+          "parent": 4,
+          "name": "Jojo Mojo",
+          "row": 1,
+          "col": 4.5
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "name": "Bonebreaker",
+          "row": 1,
+          "col": 9
+        },
+        {
+          "id": 8,
+          "parent": 4,
+          "name": "Race Dust",
+          "row": 2,
+          "col": 6
+        },
+        {
+          "id": 9,
+          "parent": 8,
+          "name": "Sinus Destroyer",
+          "row": 2,
+          "col": 7.5
+        }
+      ]
+    }
+  ]
+}
