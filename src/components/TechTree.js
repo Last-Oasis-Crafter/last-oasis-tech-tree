@@ -13,16 +13,16 @@ export default function TechTree() {
 
   
   const wheelBind = useWheel(
-    ({ xy: [, y] }) => setScale(1+y/1000),
+    ({ xy: [, y] }) => setScale(1+-y/1000),
     { domTarget: stageRef,
       eventOptions: { passive: false }
      }
   )
 
   const dragBind = useDrag(
-    ({down, movement: [mx, my] }) => {
-      setOffsetX(down ? offsetX + mx : mx)
-      setOffsetY(down ? offsetY + my : my)
+    ({down, delta: [mx, my] }) => {
+      setOffsetX(offsetX + mx)
+      setOffsetY(offsetY + my)
     }, {
       domTarget: stageRef,
       eventOptions: { passive: false }
